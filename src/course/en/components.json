@@ -1,0 +1,1410 @@
+[
+    {
+        "_id": "c-splash-logo",
+        "_parentId": "b-splash",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "full",
+        "_isOptional": false,
+        "_autoJumpTo": "co-00",
+        "body": "",
+        "_graphic": {
+          "alt": "RDLA logo",
+          "large": "course/en/images/common/splash-logo.png",
+          "small": "course/en/images/common/splash-logo.png"
+        },
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-splash-mask",
+        "_parentId": "b-splash",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "mask",
+        "_layout": "full",
+        "_isOptional": true,
+        "_pageLevelProgress": {
+          "_isEnabled": true
+        }
+    },    
+    {
+        "_id": "c-0-0-0",
+        "_parentId": "b-0-0-0",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Eliapixant Endometriosis",
+        "displayTitle": "Eliapixant",
+        "body": "Endometriosis",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-0-1a",
+        "_parentId": "b-0-0-1",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Welcome to the Eliapixant indication module for Endometriosis",
+        "displayTitle": "Welcome to the<br><b>Eliapixant indication module for Endometriosis</b>",
+        "body": "",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-0-0-1b",
+        "_parentId":"b-0-0-1",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"full",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/co-00/c-0-0-1b.png",
+            "small": "course/en/images/co-00/c-0-0-1b.png",
+            "attribution":""
+        }
+    },
+    {
+        "_id": "c-0-0-2",
+        "_parentId": "b-0-0-2",
+        "_type": "component",
+        "_component": "flippableCard",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "This learning module will provide an overview of endometriosis and how Bayer’s P2X3 receptor antagonist, Eliapixant, might provide a new effective treatment approach. The learning will look at Eliapixant’s Mechanism of Action for patients with Endometriosis, patient eligibility criteria, diagnostic and treatment standards, and also existing alternatives to Eliapixant.",
+        "instruction": "<i>Select the <b>icons</b> to learn more about this module.</i>",
+        "_columns": {
+            "_large": 2,
+            "_medium": 2,
+            "_small": 1
+        },
+        "_width": 180,
+        "_height": 180,
+        "_items": [
+            {
+                "title": "",
+                "body": "To navigate this learning please scroll through the content and follow the instructions. You can also use the menu icon <span class='icon icon-menu inline-icon'></span> in the top right.",
+                "moreButton": "",
+                "_graphic": {
+                    "_src": "course/en/images/co-00/c-0-0-2-1.jpg",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "",
+                "body": "This module includes video and audio, so the use of headphones is advised. All audio and video content are supported by onscreen text.",
+                "moreButton": "",
+                "_graphic": {
+                    "_src": "course/en/images/co-00/c-0-0-2-2.jpg",
+                    "alt": ""
+                }            
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-0-3",
+        "_parentId": "b-0-0-3",
+        "_type": "component",
+        "_component": "footer-navigation",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "instruction": "<i>Select <b>Continue</b> to access your learning.</i>",
+        "titleImage": "",
+        "body": "",
+        "_items": [
+            {
+                "text": "Continue <span><i></i></span>",
+                "ariaLabel": "Continue",
+                "_classes": "ha-next-button",
+                "_action": "co-01",
+                "_isEnabled": true
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-0-4",
+        "_parentId": "b-0-0-4",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-1-0",
+        "_parentId": "b-0-1-0",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Introduction to Endometriosis",
+        "displayTitle": "Introduction to",
+        "body": "Endometriosis",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-1-1",
+        "_parentId": "b-0-1-1",
+        "_type": "component",
+        "_component": "flippableCard",
+        "_classes": "",
+        "_layout": "full",
+        "title": "From the patient’s perspective",
+        "displayTitle": "From the patient’s perspective",
+        "body": "Endometriosis is a common hormone-dependent gynecological disease characterized by painful symptoms. It is often described as extremely isolating to live with a condition that is not completely understood and that nobody can see. Acceptance of symptoms and misdiagnosis contribute to the frequently observed long delay in endometriosis diagnosis.",
+        "instruction": "<i>Select each <b>images</b> to hear their story (contains audio).</i>",
+        "_columns": {
+            "_large": 3,
+            "_medium": 3,
+            "_small": 1
+        },
+        "_width": 281,
+        "_height": 294,
+        "_items": [
+            {
+                "title": "",
+                "body": "I feel so alone. I have been to the doctor so many times since I started my periods four years ago. My life has completely changed. I can’t do all of things my friends do. My mum  is so worried about me and I can’t explain it properly as I feel like I’m falling down a hole with the pain. It makes me so stressed all the time. I don’t think anyone understands how scary it is and my doctor not being able to explain or figure out why. The pain is so bad sometimes that I feel I can’t breathe – like I’m being stabbed.<br><br> ",
+                "moreButton": "",
+                "_graphic": {
+                    "_src": "course/en/images/co-01/c-0-1-1-1.jpg",
+                    "alt": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-01/c-0-1-1-1.mp3"
+                },
+                "heading": "Rani 17",
+                "_showAudioToggleIcon": true
+            },
+            {
+                "title": "",
+                "body": "I was so relieved to finally get a diagnosis as endometriosis has affected every aspect of my life. Friends and family have been great, but over the years it’s been so hard as I was always the one who cancelled meeting with friends, couldn’t face school, struggled with exams, although I persevered and got really good grades so I could go to the university I wanted. The pain is terrible and terrifying. It’s been 10 years since the pain started and finally after fighting for so long to get a diagnosis, which dramatically affected a time of my life when I should have been having fun, I now know what is wrong and can start to face what that means for my future.<br><br> ",
+                "moreButton": "",
+                "_graphic": {
+                    "_src": "course/en/images/co-01/c-0-1-1-2.jpg",
+                    "alt": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-01/c-0-1-1-2.mp3"
+                },
+                "heading": "Isabella 25",
+                "_showAudioToggleIcon": true
+            },
+            {
+                "title": "",
+                "body": "I struggled for years with so much pain and heavy bleeding each month. I was so embarrassed and afraid that I didn’t go to the doctor until my mum made me at 16. Since then I have tried everything! The contraceptive pill helped for a bit, but as I got older the pain just got worse. I kept being told that I had Irritable Bowel Syndrome or even that I had a low pain threshold! I felt so alone and like nobody knew what I was going through, that no one would like or want me. I basically couldn’t function for a whole week each month – that’s a quarter of my life! When I did meet my boyfriend, it was really hard to talk about what I was going through, and sex was so painful. Luckily, he has been amazing and its really helped me push for a diagnosis.<br><br> ",
+                "moreButton": "",
+                "_graphic": {
+                    "_src": "course/en/images/co-01/c-0-1-1-3.jpg",
+                    "alt": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-01/c-0-1-1-3.mp3"
+                },
+                "heading": "Jasmine 32",
+                "_showAudioToggleIcon": true
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },    
+    {
+        "_id": "c-0-1-2",
+        "_parentId": "b-0-1-2",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "The burden of the disease, the significant impact on the quality of life of affected patients and the limitations of currently available treatment modalities cause a serious unmet medical need.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-1-3",
+        "_parentId": "b-0-1-3",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Endometriosis characteristics",
+        "displayTitle": "Endometriosis characteristics",
+        "body": "",
+        "instruction": "<i>Select each <b>Title</b> to learn more the characteristics of Endometriosis (contains audio).</i>",
+        "_shouldCollapseItems": true,
+        "_setCompletionOn": "inview",
+        "_items": [
+            {
+                "title": "10% of women",
+                "body": "Endometriosis affects around 10% of women of reproductive age. The pathology is defined by endometrial tissue outside of the uterine cavity, described as endometriotic lesions. These endometriotic lesions undergo cyclical changes including bleeding, tissue remodelling and degradation.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='0'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-01/c-0-1-3-1.mp3"
+                }
+            },
+            {
+                "title": "Painful symptoms",
+                "body": "Endometriosis is characterized by painful symptoms such as  dysmenorrhea (pain during menstruation), non-menstrual pelvic pain, and dyspareunia (pain during sexual intercourse). Further symptoms of endometriosis may include pain with bowel movements or urination, fatigue, diarrhoea, constipation, bloating or nausea, especially during menstrual periods.<br/><br/>Endometriosis is often associated with sub- or infertility.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='1'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-01/c-0-1-3-2.mp3"
+                }
+            },
+            {
+                "title": "Not fully understood",
+                "body": "Neither the aetiology of endometriosis nor the precise mechanisms of the associated pelvic pain and infertility are completely understood. There is no direct correlation between stage of disease, type of endometriotic lesions and frequency and severity of symptoms.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='2'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-01/c-0-1-3-3.mp3"
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },    
+    {
+        "_id": "c-0-1-4a",
+        "_parentId": "b-0-1-4",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "",
+        "displayTitle": "",
+        "body": "Although often problematic, early diagnosis of endometriosis is critical for the benefit of the patient. Not only does it mean that treatment can be provided early on, reducing the risk of chronic pain, associated pain syndromes and risks of infertility, but it also provides validation of the patient’s symptoms and can reduce the feelings of isolation that many women feel.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-1-4b",
+        "_parentId": "b-0-1-4",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/co-01/c-0-1-4b.jpg",
+            "small": "course/en/images/co-01/c-0-1-4b.jpg"
+        }
+    },
+    {
+        "_id": "c-0-1-5",
+        "_parentId": "b-0-1-5",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_layout":"full",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+    },
+    {
+        "_id": "c-0-1-6a",
+        "_parentId": "b-0-1-6",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Difficulties with early diagnosis",
+        "displayTitle": "Difficulties with early diagnosis",
+        "body": "Let’s have a look at some of the reasons why early diagnosis is difficult.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-1-6b",
+        "_parentId": "b-0-1-6",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "left",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "<i>Select each <b>title</b> to learn more about the difficulties with early diagnosis (contains audio).</i>",
+        "_shouldCollapseItems": true,
+        "_setCompletionOn": "inview",
+        "_items": [
+            {
+                "title": "Contributing factors",
+                "body": "Unfortunately, all too frequently, acceptance of symptoms and misdiagnosis contribute to the endometriosis diagnostic delay.<br/><br/>On average women wait 2.3 years before seeking medical attention. They often think that their symptoms are ‘normal’ or are too afraid or embarrassed to seek help.<br/><br/>Frequent misdiagnosis is also a key factor, with 74% of women receiving more than one false diagnosis.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='0'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-01/c-0-1-6b-1.mp3"
+                }
+            },
+            {
+                "title": "Non-indicated or inappropriate therapies",
+                "body": "Unfortunately, sequential use of non-indicated or inappropriate therapies can also delay a definitive diagnosis and effective treatment of endometriosis.<ul><li>On average it can take 2.7 years from onset to gynaecology consultation<li>More than 30% of women have 6 or more primary care appointments before diagnosis<li>49% have 2 or more secondary care referrals before diagnosis.<li>15% of women have been prescribed 6 or more different COCs (Combined Oral Contraceptives).</li></ul><br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='1'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-01/c-0-1-6b-2.mp3"
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-1-6c",
+        "_parentId": "b-0-1-6",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"blind-0",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/co-01/c-0-1-6c.png",
+            "small": "course/en/images/co-01/c-0-1-6c.png"
+        }
+    },
+    {
+        "_id": "c-0-1-6d",
+        "_parentId": "b-0-1-6",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"blind-1",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/co-01/c-0-1-6d.png",
+            "small": "course/en/images/co-01/c-0-1-6d.png"
+        }
+    },
+    {
+        "_id": "c-0-1-7",
+        "_parentId": "b-0-1-7",
+        "_type": "component",
+        "_component": "footer-navigation",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "instruction": "<i>Select <b>Next</b> to continue your learning.</i>",
+        "titleImage": "",
+        "body": "",
+        "_items": [
+            {
+                "text": "Next <span><i></i></span>",
+                "ariaLabel": "Next",
+                "_classes": "ha-next-button",
+                "_action": "co-03",
+                "_isEnabled": true
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-1-8",
+        "_parentId": "b-0-1-8",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    }, 
+    {
+        "_id": "c-0-3-0",
+        "_parentId": "b-0-3-0",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Diagnosis and existing treatment",
+        "displayTitle": "",
+        "body": "Diagnosis<br/> and existing<br/> treatment",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },    
+    {
+        "_id": "c-0-3-1a",
+        "_parentId": "b-0-3-1a",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "",
+        "displayTitle": "",
+        "body": "<b>Unfortunately, there is currently no generally accepted non-invasive diagnostic test available for endometriosis.</b>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-3-1ba",
+        "_parentId": "b-0-3-1b",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "",
+        "displayTitle": "",
+        "body": "Laparoscopy is the only reliable method to date and is considered the gold standard for diagnosing endometriosis. Laparascopy is a surgical procedure, that allows a physician to view the inside of the abdomen and collect tissue samples.<br/><br/>There are guidelines suggesting starting empirical treatment without diagnostic laparoscopy and to only perform this procedure when surgical treatment is planned.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-3-1bb",
+        "_parentId": "b-0-3-1b",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/co-03/c-0-3-1c.jpg",
+            "small": "course/en/images/co-03/c-0-3-1c.jpg"
+        }
+    },
+    {
+        "_id": "c-0-3-2a",
+        "_parentId": "b-0-3-2",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/co-03/c-0-3-2a.jpg",
+            "small": "course/en/images/co-03/c-0-3-2a.jpg"
+        }
+    },
+    {
+        "_id": "c-0-3-2b",
+        "_parentId": "b-0-3-2",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "Samples gathered through this minimally invasive procedure can then be tested to confirm histologically an endometriosis diagnosis.<br/><br/>In many countries, magnetic resonance imaging or ultrasound are increasingly used as a diagnostic approach.<br/><br/>The identification of biomarkers also presents a potential opportunity in diagnosing endometriosis.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-3-3",
+        "_parentId": "b-0-3-3",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "<i><b>References</b><br/><br/>The New Zealand Ministry of Health (2020) Guideline and the World Endometriosis Society Montpellier Endometriosis Consensus Statements (2013)</i>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_isOptional" : true
+    }, 
+    {
+        "_id": "c-0-3-4",
+        "_parentId": "b-0-3-4",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },   
+    {
+        "_id": "c-0-3-6",
+        "_parentId": "b-0-3-6",
+        "_type": "component",
+        "_component": "narrative",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_hasNavigationInTextArea": false,
+        "mobileInstruction": "",
+        "_setCompletionOn": "allItems",
+        "_isResetOnRevisit": "soft",
+        "_items": [
+            {
+                "title": "Treatments for Endometriosis",
+                "body": "As per several guidelines, empirical medical treatment for pain symptoms can be prescribed before establishing the diagnosis of endometriosis by invasive approaches.<br/><br/>Although minimal, the invasiveness of the diagnostic procedure and the variety of symptoms typically lead to unspecific treatment, which can cause a diagnostic delay of a number of years.<br/><br/><i>Select the <b>arrow</b> to learn more about existing treatments for from Endometriosis (contains audio)</i>.",
+                "_graphic": {
+                    "src": "course/en/images/co-03/c-0-3-6-0.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "strapline": "Treatments for Endometriosis..."
+            },
+            {
+                "title": "First line treatments",
+                "body": "Diagnostic and treatment standards for patients diagnosed with / or suspected to have endometriosis may start with treatment for pain symptoms, for example with non-steroidal anti-inflammatory drugs (NSAIDs).<br/><br/>Patients may also be treated with combined oral contraceptives or progesterone (mostly non-indicated) combined with NSAIDs.<br/><br/>After failure of initial medical treatment, the patient is likely to be referred for surgical diagnosis and consequently treatment is usually indicated.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='1'></span>",
+                "_graphic": {
+                    "src": "course/en/images/co-03/c-0-3-6-1.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-03/c-0-3-6-1.mp3"
+                },
+                "strapline": "First line treatments..."
+            },
+            {
+                "title": "Second line therapies",
+                "body": "Therapies with proven efficacy for the treatment of Endometriosis are often limited by undesirable side effects.<br/><br/>For example, GnRH agonists and antagonists as second line treatment options are only approved to be used for up to 2 years due to the known side effects associated with lowered estrogen levels, such as hot flushes, night sweats and loss in bone mineral density.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='2'></span>",
+                "_graphic": {
+                    "src": "course/en/images/co-03/c-0-3-6-2.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-03/c-0-3-6-2.mp3"
+                },
+                "strapline": "Second line therapies..."
+            },
+            {
+                "title": "Add Back Therapy",
+                "body": "GnRH agonists and antagonists are modified versions of a naturally occurring hormone known as gonadotropin releasing hormone, which helps to control the menstrual cycle.<br/><br/>Many gynaecologists recommend taking add-back medication to reduce or even prevent the side effects of the GnRH agonists and antagonists. Add-back therapy involves taking a medication, such as low-dose estrogen and progestogen , or tibolone at the same time as a GnRH agonist or antagonist. The dosages used are small, so they do not reduce the effectiveness of the GnRH agonist or antagonist. With add-back therapy the duration of use can be extended from 6 months to 2 years.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='3'></span>",
+                "_graphic": {
+                    "src": "course/en/images/co-03/c-0-3-6-3.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-03/c-0-3-6-3.mp3"
+                },
+                "strapline": "Add Back Therapy..."
+            },
+            {
+                "title": "Surgical intervention",
+                "body": "The limitations of medical treatment for symptom control, side effects and long-term usability are significant and for many women surgery for the excision and/or ablation of endometriotic lesions is the advised option at some point in their disease journey.<br/><br/>However, even after surgical intervention, pain recurrence affects 20% to 56% of the patients over 5 years of follow-up. And patients often undergo repeated surgical procedures for confirmation of diagnosis and or treatment.<br/><br/>These repeated surgical procedures can be associated with possible secondary effects of organ loss, functional impairment, and recurrent pain due to scarring and adhesions.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='4'></span>",
+                "_graphic": {
+                    "src": "course/en/images/co-03/c-0-3-6-4.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-03/c-0-3-6-4.mp3"
+                },
+                "strapline": "Surgical intervention..."
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }, 
+    {
+        "_id": "c-0-3-8",
+        "_parentId": "b-0-3-8",
+        "_type": "component",
+        "_component": "footer-navigation",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "instruction": "<i>Select <b>Next</b> to continue your learning.</i>",
+        "titleImage": "",
+        "body": "",
+        "_items": [
+            {
+                "text": "Next <span><i></i></span>",
+                "ariaLabel": "Next",
+                "_classes": "ha-next-button",
+                "_action": "co-04",
+                "_isEnabled": true
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-3-9",
+        "_parentId": "b-0-3-9",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-4-0",
+        "_parentId": "b-0-4-0",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Eliapixant’s Mechanism of action",
+        "displayTitle": "",
+        "body": "Eliapixant’s<br/> Mechanism<br/> of action",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-4-1a",
+        "_parentId": "b-0-4-1",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Endometriosis pathomechanisms ",
+        "displayTitle": "Endometriosis pathomechanisms ",
+        "body": "Pathologically the disease is defined by the presence of endometrial tissue outside the uterine cavity. These endometriotic lesions undergo cyclical changes with estrogen supporting and progestogen inhibiting lesion growth, including bleeding and tissue remodelling and degradation.",
+        "instruction": "<i>Select each <b>Title</b> to learn more the pathomechanisms of Endometriosis (contains audio).</i>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },    
+    {
+        "_id": "c-0-4-1b",
+        "_parentId": "b-0-4-1",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_shouldCollapseItems": true,
+        "_setCompletionOn": "inview",
+        "_items": [
+            {
+                "title": "Inflammation",
+                "body": "Endometrial lesions exhibit signs of inflammation. Increased concentrations of prostaglandins have been reported in peritoneal fluid of endometriosis patients and may be involved in the progression of the disease.<br/><br/>Besides inflammation itself, mechanical stretch due to displaced tissue growth or for example, peritoneal adhesions, as well as movement and distension, contribute to processes that lead to the release of ATP (Adenosine triphosphate), which is suggested to play a dominant role in nociception and neurogenic inflammation.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='0'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-1-1.mp3"
+                }
+            },
+            {
+                "title": "Hormonal treatments",
+                "body": "Hormonal treatments are believed to reduce proliferation of endometrial lesions by reducing estrogen activity.<br/><br/>Classical endocrine approaches focus on acting solely on the lesion side only by reducing, for example, estradiol production and thereby reducing concomitant lesion stimulation.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='1'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-1-2.mp3"
+                }
+            },
+            {
+                "title": "Non-hormonal approaches",
+                "body": "In order to determine non-hormonal approaches to treat endometriosis which do not have the hormone deprivation-associated side effects, the target space has been expanded at Bayer to address the immune system as well as the peripheral nervous system.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='2'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-1-3.mp3"
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },    
+    {
+        "_id": "c-0-4-2",
+        "_parentId": "b-0-4-2",
+        "_type": "component",
+        "_component": "narrative",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_hasNavigationInTextArea": false,
+        "mobileInstruction": "",
+        "_setCompletionOn": "allItems",
+        "_isResetOnRevisit": "soft",
+        "_items": [
+            {
+                "title": "P2X3 receptors",
+                "body": "Let’s have a look at how P2X3 receptors are affected in Endometriosis.<br/><br/><i>Select the <b>arrow</b> to learn more about existing treatments for from Endometriosis (contains audio)</i>.",
+                "_graphic": {
+                    "src": "course/en/images/co-04/c-0-4-2-0.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "strapline": "P2X3 receptors..."
+            },
+            {
+                "title": "",
+                "body": "P2X3 receptors are ATP (Adenosine triphosphate) activated ion channels of the purinoceptor family.<br/><br/>The functional ion channel is composed of 3 molecules of either P2X3 only (so-called homomer) or P2X2 and P2X3 (so-called heteromer). The heteromeric P2X2/3 receptor is involved in taste perception, while the homomeric receptor is believed to be responsible for achieving efficacy.<br/><br/>ATP release can occur due to cell death, and under (patho-) physiologic conditions of injury, inflammation, stress, movement, and distension. These processes occur in endometriosis patients.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='1'></span>",
+                "_graphic": {
+                    "src": "course/en/images/co-04/c-0-4-2-1.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-2-1.mp3"
+                },
+                "strapline": "P2X3 receptors are ATP..."
+            },
+            {
+                "title": "",
+                "body": "P2X3 receptors are natural mediators of pain and inducers of neurogenic inflammation. They are expressed in endometriotic lesions on afferent/sensory fibres of the peripheral nervous system leading to local neurogenic inflammation and mediating endometriotic pain.<br/><br/>The ion channel is a major regulator of afferent nerve fibre signalling involved in hypersensitization of nerve fibres, which is believed to be the common pathomechanism in a variety of diseases.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='2'></span>",
+                "_graphic": {
+                    "src": "course/en/images/co-04/c-0-4-2-2.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-2-2.mp3"
+                },
+                "strapline": "P2X3 receptors are natural..."
+            },
+            {
+                "title": "",
+                "body": "Afferent/sensory nerve fibre signalling by P2X3 receptors is believed to play a crucial role in the development and in the progression of endometriosis.<br/><br/>Under certain disease conditions these nerve fibres can become hypersensitive and be activated without an external stimulus. Over time, the body's ability to seize the receptor site activity for pain perception is impaired leading to hypersensitivity to pain.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='3'></span>",
+                "_graphic": {
+                    "src": "course/en/images/co-04/c-0-4-2-3.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-2-3.mp3"
+                },
+                "strapline": "Afferent/sensory nerve..."
+            },
+            {
+                "title": "",
+                "body": "Blocking the receptor leads to reduction of the nerve fibre stimulation which causes the painful symptoms.<br/><br/>Besides the aforementioned homomeric P2X3 receptor there is also a heteromeric P2X2/3 receptor, expressed on the tongue taste buds. When the heteromeric P2X2/3 is blocked, it could exert taste adverse events like hypogeusia (diminished sense of taste) or dysgeusia (distortion of the sense of taste).<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='4'></span>",
+                "_graphic": {
+                    "src": "course/en/images/co-04/c-0-4-2-4.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-2-4.mp3"
+                },
+                "strapline": "Blocking the receptor..."
+            },
+            {
+                "title": "",
+                "body": "Bayer is not the only company who is working on the development of a P2X3 receptor antagonist. Proof of concept studies performed in the Respiratory Chronic Cough indication were conducted for both Bayer’s Eliapixant and Merck’s Gefapixant.<br/><br/>In the Bayer phase 2a study in RUCC about 20% of participants reported taste adverse events, whereas the number was much higher in the study performed with Gefapixant where about 65% of participants reported taste adverse events.<br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='5'></span>",
+                "_graphic": {
+                    "src": "course/en/images/co-04/c-0-4-2-5.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-2-5.mp3"
+                },
+                "strapline": "Bayer is not the..."
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-4-2b",
+        "_parentId": "b-0-4-2b",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Disease hypothesis",
+        "displayTitle": "Disease hypothesis",
+        "body": "<b>It is believed that P2X3 plays a critical role and that Eliapixant addresses two mechanisms as a potential new treatment for patients with Endometriosis.</b>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-4-3a",
+        "_parentId": "b-0-4-3",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "",
+        "displayTitle": "",
+        "body": "By directly blocking afferent/sensory nerve fibre stimulation, hypersensitization and pain sensation. This approach also has the potential to interfere with the hypersensitization of nerve fibres that may contribute to, for example, the chronification of pain.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-4-3b",
+        "_parentId": "b-0-4-3",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/co-04/c-0-4-3b.jpg",
+            "small": "course/en/images/co-04/c-0-4-3b.jpg"
+        }
+    },
+    {
+        "_id": "c-0-4-4a",
+        "_parentId": "b-0-4-4",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/co-04/c-0-4-4a.jpg",
+            "small": "course/en/images/co-04/c-0-4-4a.jpg"
+        }
+    },
+    {
+        "_id": "c-0-4-4b",
+        "_parentId": "b-0-4-4",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "Addressing the neurogenic inflammation and acting on endometriotic lesions, Eliapixant has disease modifying potential and could interrupt the potential vicious cycle of endometriosis.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-4-5",
+        "_parentId": "b-0-4-5",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-4-6",
+        "_parentId": "b-0-4-6",
+        "_type": "component",
+        "_component": "stacklist",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Existing data",
+        "displayTitle": "Existing data",
+        "body": "",
+        "instruction": "",
+        "_items": [
+            {
+                "title": "",
+                "body": "Existing data for P2X3 receptor antagonist (BAY1817080) in the Endometriosis indication includes a demonstration of robust efficacy in different in-vivo models including effects on neurogenic inflammation with high relevance for Endometriosis.<br/><br/><i>Select the <b>arrow</b> to learn more about the existing data (contains audio).</i>",
+                "instruction": "",
+                "_audio": {
+                    "src": ""
+                }
+            },
+            {
+                "title": "",
+                "body": "Significantly reduced dyspareunia (pain during intercourse) in a rat endometriosis model, where the study revealed a sustained effect that was still observed 1 week after treatment cessation.<br/><br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='1'></span>",
+                "instruction": "",
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-6-1.mp3"
+                }
+            },
+            {
+                "title": "",
+                "body": "Eliapixant is believed to act via multiple modes of action including analgesic and anti-inflammatory effects, combining a high efficacy on pain together with an innovative mechanism of action for disease modification.<br/><br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='2'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-6-2.mp3"
+                }
+            },
+            {
+                "title": "",
+                "body": "There is no indication that the potential new treatment impacts on ovarian function or the menstrual cycle .<br/><br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='3'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-6-3.mp3"
+                }
+            },
+            {
+                "title": "",
+                "body": "A study assessing efficacy of Merck’s P2X3 antagonist Gefapixant in endometriosis has been completed and data published in June 2021 (clinicaltrials.gov).<br/><br><br> <span class='icon icon-volume-high inline-icon inline-button-icon' data-id='4'></span>",
+                "_audio": {
+                    "src": "course/en/audios/co-04/c-0-4-6-4.mp3"
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-4-7",
+        "_parentId": "b-0-4-7",
+        "_type": "component",
+        "_component": "footer-navigation",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "instruction": "<i>Select <b>Next</b> to continue your learning.</i>",
+        "titleImage": "",
+        "body": "",
+        "_items": [
+            {
+                "text": "Next <span><i></i></span>",
+                "ariaLabel": "Next",
+                "_classes": "ha-next-button",
+                "_action": "co-05",
+                "_isEnabled": true
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-4-8",
+        "_parentId": "b-0-4-8",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-5-0",
+        "_parentId": "b-0-5-0",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Criteria for patient inclusion",
+        "displayTitle": "",
+        "body": "Criteria for<br/> patient<br/> inclusion",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-5-1a",
+        "_parentId": "b-0-5-1",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Endometriosis symptom diary (ESD)",
+        "displayTitle": "Endometriosis symptom diary (ESD)",
+        "body": "Both eligibility regarding the disease and the primary endpoint of the study are measured on the numeric rating scale (NRS) through item 1 of the endometriosis symptoms diary (ESD).<br/><br/>Therefore, the questionnaire needs to be completed daily throughout the entire study.",
+        "instruction": "<i>Select the <b>image</b> to see an example of the ESD pain rating options.</i>",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-5-1b",
+        "_parentId": "b-0-5-1",
+        "_type": "component",
+        "_component": "hotgrid",
+        "_classes": "",
+        "_layout": "right",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "_canCycleThroughPagination": false,
+        "_hidePagination": true,
+        "instruction": "",
+        "_columns": 1,
+        "_items": [
+            {
+                "title": "",
+                "body": "",
+                "_graphic": {
+                    "src": "course/en/images/co-05/c-0-5-1.png",
+                    "feedback": "course/en/images/co-05/c-0-5-1a.png",
+                    "srcHover": "",
+                    "srcVisited": "",
+                    "alt": "",
+                    "title": ""
+                }
+            }          
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },    
+    {
+        "_id": "c-0-5-2",
+        "_parentId": "b-0-5-2",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },    
+    {
+        "_id": "c-0-5-3",
+        "_parentId": "b-0-5-3",
+        "_type": "component",
+        "_component": "footer-navigation",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "instruction": "<i>Select <b>Next</b> to continue your learning.</i>",
+        "titleImage": "",
+        "body": "",
+        "_items": [
+            {
+                "text": "Next <span><i></i></span>",
+                "ariaLabel": "Next",
+                "_classes": "ha-next-button",
+                "_action": "co-06",
+                "_isEnabled": true
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-5-4",
+        "_parentId": "b-0-5-4",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-6-0",
+        "_parentId": "b-0-6-0",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Competitor drugs and other therapies alternative to Eliapixant",
+        "displayTitle": "",
+        "body": "Competitor drugs and<br/> other therapies<br/> alternative to Eliapixant",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-6-1",
+        "_parentId": "b-0-6-1",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "Currently the available treatments for Endometriosis include:<ul><li>Pain killers<li>Combined oral contraceptives (off-label use)<li>Progestogens (for example, Visanne)<li>GnRH agonists (not available in the US; e.g., Lupron (injectable))<li>GnRH antagonists (only available in the US and Canada; e.g., elagolix)</li></ul>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-6-2",
+        "_parentId": "b-0-6-2",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"full",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "large": "course/en/images/co-06/c-0-6-2.png",
+            "small": "course/en/images/co-06/c-0-6-2.png"
+        }
+    },    
+    {
+        "_id": "c-0-6-4",
+        "_parentId": "b-0-6-4",
+        "_type": "component",
+        "_component": "footer-navigation",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "instruction": "<i>Select <b>Next</b> to continue your learning.</i>",
+        "titleImage": "",
+        "body": "",
+        "_items": [
+            {
+                "text": "Next <span><i></i></span>",
+                "ariaLabel": "Next",
+                "_classes": "ha-next-button",
+                "_action": "co-09",
+                "_isEnabled": true
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-6-5",
+        "_parentId": "b-0-6-5",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-9-0",
+        "_parentId": "b-0-9-0",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Summary and completion",
+        "displayTitle": "",
+        "body": "Summary and completion",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-0-9-1",
+        "_parentId": "b-0-9-1",
+        "_type": "component",
+        "_component": "flippableCard",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "You have now completed your learning for the Eliapixant Endometriosis indication module.<br/>Let’s have a look at the key points from this module. ",
+        "instruction": "<i>Select each <b>card</b> to see the key points from this module.</i>",
+        "_columns": {
+            "_large": 4,
+            "_medium": 4,
+            "_small": 2
+        },
+        "_width": 204,
+        "_height": 336,
+        "_items": [
+            {
+                "title": "",
+                "body": "Endometriosis is a common hormone-dependent benign gynecologic disease, which affects about 10% women of reproductive age.",
+                "moreButton": "",
+                "_graphic": {
+                    "_src": "course/en/images/co-09/c-0-9-1-1.png",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "",
+                "body": "Endometriosis is characterized by painful symptoms such as non-menstrual pelvic pain, dysmenorrhea, and dyspareunia and significantly impacts the quality of life of affected patients.",
+                "moreButton": "",
+                "_graphic": {
+                    "_src": "course/en/images/co-09/c-0-9-1-2.png",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "",
+                "body": "Current treatment options for endometriosis are unsatisfactory. Long-term, effective therapies are needed to improve the broad range of painful endometriotic symptoms, particularly one that improves non-menstrual pelvic pain.",
+                "moreButton": "",
+                "_graphic": {
+                    "_src": "course/en/images/co-09/c-0-9-1-3.png",
+                    "alt": ""
+                }
+            },
+            {
+                "title": "",
+                "body": "Eliapixant offers the potential for long-term therapy for endometriosis with superior efficacy on NMPP vs oral GnRH. It is believed to act via multiple modes of action, including analgesic and anti-inflammatory effects, combining a high efficacy on pain with an innovative mechanism of action for disease modification.",
+                "moreButton": "",
+                "_graphic": {
+                    "_src": "course/en/images/co-09/c-0-9-1-4.png",
+                    "alt": ""
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-9-1a",
+        "_parentId": "b-0-9-1a",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-9-2",
+        "_parentId": "b-0-9-2",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "You have now completed the <b>Eliapixant Endometriosis</b> module. However, you can access this module at any time if you need a quick refresher on any of the points covered.<br/><br/>With several clinical studies for Eliapixant currently underway, the path forward will hopefully bring much-needed relief to patients suffering from a range of illnesses.<br/><br/>Please visit the other indication specific modules for detailed information regarding MOA, disease, competitors, etc. ",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-9-3",
+        "_parentId": "b-0-9-3",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "<div class='leftText'><i>Remember to verify your learning. You can access support on how to do this below.</i></div><br/><br/><div class='leftTextButton'><a href='http://sp-coll-bhc.bayer-ag.com/sites/220009/training_platform/Files/resource.aspx?id=4' target='_blank' class='btn btn-blue'>Verify<span><i></i></span></a></div>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-9-4",
+        "_parentId": "b-0-9-4",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "body": "<div class='leftText'><i>If you have a technical problem, question or comment on the training material please use the email link below.</i></div><br/><br/><div class='leftTextButton'><a href='mailto:rdla@bayer.com?subject=Eliapixant indication Endometriosis' target='_blank' class='btn btn-blue'>Feedback<span><i></i></span></a></div>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-9-5",
+        "_parentId": "b-0-9-5",
+        "_type": "component",
+        "_component": "footer-navigation",
+        "_classes": "",
+        "_layout": "full",
+        "title": "",
+        "displayTitle": "",
+        "instruction": "<i>Please <b>close this browser window</b> to complete this module.</i>",
+        "titleImage": "",
+        "body": "",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    },
+    {
+        "_id": "c-0-9-6",
+        "_parentId": "b-0-9-6",
+        "_type":"component",
+        "_component":"blank",
+        "_classes":"",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        },
+        "_isOptional" : true
+    }
+]

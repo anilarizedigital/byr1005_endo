@@ -1,0 +1,127 @@
+[
+    {
+        "_id": "co-splash",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "splash",
+        "_isHidden": true,
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_bookmarking": {
+            "_isEnabled": false
+        },
+        "_isOptional": true
+    },    
+    {
+        "_id": "co-00",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClassName": "",
+        "pageBody": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_parallaxbgSwitcher": {
+            "_isActive":true,
+            "_bgoptions": "parallax"
+        },
+        "_isOptional": true
+    },
+    {
+        "_id": "co-01",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClassName": "",
+        "pageBody": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_parallaxbgSwitcher": {
+            "_isActive":true,
+            "_bgoptions": "parallax"
+        },
+        "_isOptional": true
+    },
+    {
+        "_id": "co-03",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClassName": "",
+        "pageBody": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_parallaxbgSwitcher": {
+            "_isActive":true,
+            "_bgoptions": "parallax"
+        },
+        "_isOptional": true
+    },
+    {
+        "_id": "co-04",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClassName": "",
+        "pageBody": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_parallaxbgSwitcher": {
+            "_isActive":true,
+            "_bgoptions": "parallax"
+        },
+        "_isOptional": true
+    },
+    {
+        "_id": "co-05",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClassName": "",
+        "pageBody": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_parallaxbgSwitcher": {
+            "_isActive":true,
+            "_bgoptions": "parallax"
+        },
+        "_isOptional": true
+    },
+    {
+        "_id": "co-06",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClassName": "",
+        "pageBody": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_parallaxbgSwitcher": {
+            "_isActive":true,
+            "_bgoptions": "parallax"
+        },
+        "_isOptional": true
+    },    
+    {
+        "_id": "co-09",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClassName": "",
+        "pageBody": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_parallaxbgSwitcher": {
+            "_isActive":true,
+            "_bgoptions": "parallax"
+        }
+    }
+]

@@ -1,0 +1,190 @@
+{
+    "_id": "course",
+    "_type": "course",
+    "_htmlClassName": "",
+    "title": "Eliapixant Endometriosis",
+    "displayTitle": "Eliapixant Endometriosis",
+    "description": "Eliapixant Endometriosis",
+    "body": "",
+    "bodyText2": "",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Submit"
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Reset"
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct answer",
+            "ariaLabel": "Show correct answer"
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "My answer",
+            "ariaLabel": "Show my answer"
+        },
+        "_showFeedback": {
+            "buttonText": "Show feedback",
+            "ariaLabel": "Show feedback"
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment"
+    },
+    "_globals": {
+        "_learnerInfo": {
+            "id": "student.name@example.org",
+            "name": "Name, Student",
+            "firstname": "Student",
+            "lastname": "Name"
+        },
+        "_accessibility": {
+            "skipNavigationText": "Skip navigation",
+            "_ariaLabels": {
+                "answeredIncorrectly": "You answered incorrectly",
+                "answeredCorrectly": "You answered correctly",
+                "selectedAnswer": "selected",
+                "unselectedAnswer": "not selected",
+                "skipNavigation": "Skip Navigation",
+                "previous": "Back",
+                "navigationDrawer": "Open course resources.",
+                "close": "Close",
+                "closeDrawer": "Close drawer",
+                "closeResources": "Close resources",
+                "drawer": "Top of side drawer",
+                "closePopup": "Close popup",
+                "next": "Next",
+                "done": "Done",
+                "complete": "Completed",
+                "incomplete": "Incomplete",
+                "incorrect": "Incorrect",
+                "correct": "Correct",
+                "locked": "Locked",
+                "visited": "Visited"
+            }
+        }
+    },
+    "_latestTrackingId": 51,
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_showPageCompletion": false,
+        "_altText": "of components completed on this page."
+    },
+    "_resources": {
+        "_isEnabled": false,
+        "title": "Resources",
+        "description": "View resources for this course by clicking here.",
+        "_filterButtons": {
+            "all": "All",
+            "document": "Document",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_filterAria": {
+            "allAria": "View all resources",
+            "documentAria": "View document resources",
+            "mediaAria": "View media resources",
+            "linkAria": "View resource links"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "document",
+                "title": "Vanilla Theme Swatch",
+                "description": "See the swatch for the vanilla theme by clicking here.",
+                "_link": "course/en/images/vanilla-swatch.jpg"
+            },
+            {
+                "_type": "media",
+                "title": "Adapt Learning YouTube Channel",
+                "description": "Fancy catching up on some Adapt material? Click here.",
+                "_link": "https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"
+            },
+            {
+                "_type": "link",
+                "title": "Adapt Project Site",
+                "description": "View the project's web site by clicking here.",
+                "_link": "https://www.adaptlearning.org/"
+            },
+            {
+                "_type": "link",
+                "title": "Framework chat",
+                "description": "Join the framework chat room by clicking here.",
+                "_link": "https://gitter.im/adaptlearning/adapt_framework"
+            }
+        ]
+    },
+    "_assessment": {
+        "_isPercentageBased": true,
+        "_scoreToPass": 75
+    },
+    "_bookmarking": {
+        "_isEnabled": true,
+        "_level": "component",
+        "title": "Resume?",
+        "body": "Would you like to resume the course from the location you were at last time?",
+        "_buttons": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "_drawerCourseNavigation": {
+        "_isEnabled": true,
+        "title": "Navigation",
+        "_drawerOrder": 2,
+        "description": "Click here to navigate this course",
+        "_courseNavigation": [
+            {
+                "displayTitle": "<b>Learning Objectives</b>",
+                "_link": "LO",
+                "_isActive": true
+            },
+            {
+                "displayTitle": "<b>Welcome</b>",
+                "_link": "co-00",
+                "_isActive": true
+            },
+            {
+                "displayTitle": "<b>Introduction to Endometriosis</b>",
+                "_link": "co-01",
+                "_isActive": true
+            },
+            {
+                "displayTitle": "<b>Diagnosis and existing treatment</b>",
+                "_link": "co-03",
+                "_isActive": true
+            },
+            {
+                "displayTitle": "<b>Eliapixant’s Mechanism of action</b>",
+                "_link": "co-04",
+                "_isActive": true
+            },
+            {
+                "displayTitle": "<b>Endometriosis symptom diary (ESD)</b>",
+                "_link": "co-05",
+                "_isActive": true
+            },
+            {
+                "displayTitle": "<b>Competitor drugs and other therapies alternative to Eliapixant</b>",
+                "_link": "co-06",
+                "_isActive": true
+            },
+            {
+                "displayTitle": "<b>Summary and completion</b>",
+                "_link": "co-09",
+                "_isActive": true
+            }
+        ]
+    },
+    "_hamburgerPopup": {
+        "_level": "component",
+        "title": "Your Learning Objectives",
+        "body": "On completion of this module you should understand the following key principles:<br/><br/><ol><li>Patient and disease state characteristics for endometriosis</li><li>Indication-specific symptoms and diagnosis including how diagnosis is made.</li><li>Diagnostic and treatment standards for patients diagnosed with endometriosis</li><li>Eliapixant’s Mechanism of Action as a new treatment for patients with endometriosis</li><li>Eligibility criteria for patient inclusion</li><li>Competitor drugs and other therapies for endometriosis that are an alternative to Eliapixant.</li></ol><br/><br/><i>Select <b>Close</b> to return to the module.</i>"
+    },
+    "_start": {
+        "_isEnabled": true,
+        "_id": "co-splash",
+        "_isMenuDisabled": true,
+        "_force": false
+    }
+}
