@@ -1,0 +1,37 @@
+{{import_globals}}
+<div class="component-inner responsiveiframe-inner">
+  {{> component this}}
+  <div class="component-widget responsiveiframe-widget">
+    <div class="responsiveiframe-iframe-holder">
+      <iframe title="{{iframeTitle}}" scrolling="{{#if _scrolling}}{{_scrolling}}{{else}}no{{/if}}" class="responsiveiframe-iframe" src="{{_source}}" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+    </div>
+  </div>
+  {{#if _transcript}}
+  <div class="media-transcript-container">
+    <div class="media-transcript-button-container">
+      <button class="media-inline-transcript-button" aria-expanded="false">
+          <div class="transcript-text-container">
+          {{#if _transcript.inlineTranscriptButton}}
+              {{{_transcript.inlineTranscriptButton}}}
+          {{else}}
+              {{_transcript.transcriptLink}}
+          {{/if}}
+          </div>
+      </button>
+    </div>
+    <div class="media-inline-transcript-body-container" role="region" aria-label="{{#if _transcript.inlineTranscriptButton}}{{_transcript.inlineTranscriptButton}}{{else}}{{_transcript.transcriptLink}}{{/if}}">
+        <div class="media-inline-transcript-body">{{{compile _transcript.inlineTranscriptBody}}}
+          <button class="media-inline-transcript-button type2 button" aria-expanded="false">
+            <div class="transcript-text-container">
+            {{#if _transcript.inlineTranscriptButton}}
+                {{_transcript.inlineTranscriptButton}}
+            {{else}}
+                {{_transcript.transcriptLink}}
+            {{/if}}
+            </div>
+          </button>
+        </div>
+    </div>
+  </div>
+  {{/if}}
+</div>

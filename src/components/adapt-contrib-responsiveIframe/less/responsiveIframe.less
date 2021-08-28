@@ -1,0 +1,112 @@
+.responsiveIframe-component {
+
+  .responsiveIframe-header {
+    margin: 0 auto;
+    max-width: 830px;
+  }
+
+  .responsiveiframe-widget {
+    border: solid 1px #808080;
+  }
+
+  .responsiveiframe-iframe-holder {
+    height: 0;
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position: relative;
+  }
+
+  .responsiveiframe-iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .media-transcript-button-container {
+    float: left;
+
+    @media all and (max-width: (768px)) {
+      width: 100%;
+    }
+  }
+
+  .media-inline-transcript-button {
+    // display: block;
+    // max-width: 185px;
+    // width: 100%;
+    background-color: #0F0943 !important;
+    color: #fff !important;
+    display: block;
+    float: inherit;
+    height: 50px;
+    font-size: 1.125em;
+    min-width: 160px;
+    padding: 0 65px 0 20px;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    
+    &.margin-on-right {
+      margin-right: 15px;
+    }
+
+    &.type2 {
+      margin: 20px auto 0;
+    }
+
+    span {
+      background-color: #0090c5;
+      height: 100%;
+      margin-left: 20px;
+      margin-right: -15px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transform: skew(-20deg, 0);
+      transition: width 0.3s ease-out;
+      width: 65px;
+
+      i {
+        background: url("course/en/images/common/arrow-right.png") no-repeat 20px center;
+        display: block;
+        height: 100%;
+        transform: skew(20deg, 0);
+        transition: margin 0.3s ease-out;
+      }
+    }
+
+    &:hover {
+      span {
+        width: 0;
+
+        i {
+          margin-left: -65px;
+        }
+      }
+    }
+  }
+
+  .media-inline-transcript-body-container {
+    display: none;
+    float: right;
+    text-align: left;
+    width: ~'calc(100% - 230px)';
+
+    @media all and (max-width: (768px)) {
+      width: 100%;
+    }
+
+    .media-inline-transcript-body {
+      border: solid 1px #808080;
+      font-size: 18px;
+      margin: 20px 0 25px;
+      padding: 20px;
+
+      @media all and (max-width: (768px)) {
+        margin-top: 0;
+      }
+    }
+  }
+}

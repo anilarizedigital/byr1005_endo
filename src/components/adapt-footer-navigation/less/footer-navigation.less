@@ -1,0 +1,58 @@
+.footer-navigation-component {
+  .footer-navigation-inner {
+    .footer-navigation-widget {
+      text-align: center;
+      margin: 0 auto;
+
+      .button, button {
+        background-color: #0f374f;
+        background-color: #0F0943;
+        color: #fff;
+        float: inherit;
+        height: 50px;
+        margin: 0px 0.75em;
+        min-width: 160px;
+        padding: 0 65px 0 20px;
+        position: relative;
+        overflow: hidden;
+        width: auto;
+        font-size: 1.125em;
+        
+        &.margin-on-right {
+          margin-right: 15px;
+        }
+
+        span {
+          background-color: #0090c5;
+          height: 100%;
+          margin-left: 20px;
+          margin-right: -15px;
+          position: absolute;
+          right: 0;
+          top: 0;
+          transform: skew(-20deg, 0);
+          transition: width 0.3s ease-out;
+          width: 65px;
+
+          i {
+            background: url("course/en/images/common/arrow-right.png") no-repeat 20px center;
+            display: block;
+            height: 100%;
+            transform: skew(20deg, 0);
+            transition: margin 0.3s ease-out;
+          }
+        }
+
+        &:hover {
+          span {
+            width: 0;
+
+            i {
+              margin-left: -65px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

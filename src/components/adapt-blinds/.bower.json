@@ -1,0 +1,27 @@
+{
+  "name": "adapt-blinds",
+  "repository": "git://github.com/danielstorey/adapt-blinds.git",
+  "framework": ">=3",
+  "homepage": "https://github.com/danielstorey/adapt-blinds",
+  "issues": "https://github.com/danielstorey/adapt-blinds/issues",
+  "displayName": "Blinds",
+  "component": "blinds",
+  "description": "Horizontally stacked images widen when hovered over. Optional captions are displayed. Demo available.",
+  "main": "/js/adapt-blinds.js",
+  "keywords": [
+    "adapt-blinds",
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "567740fbeb",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "567740fbebcd47924d3ac8b8f2b8f32b68141131"
+  },
+  "_source": "git://github.com/danielstorey/adapt-blinds.git",
+  "_target": "*",
+  "_originalSource": "adapt-blinds",
+  "_direct": true
+}
