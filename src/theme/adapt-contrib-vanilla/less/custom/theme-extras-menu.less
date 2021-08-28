@@ -1,0 +1,90 @@
+
+// menu header 
+.menu {
+    .menu-container{
+        .menu-header {
+            background: url(course/en/images/menu/menu-header.jpg) no-repeat;
+            height: 500px;
+            background-position: center top, top right;
+            
+                @media all and (max-width: (@device-width-large - 1)) {
+                    background: url(course/en/images/menu/menu-header.jpg) no-repeat !important;
+                    background-position: center center !important;
+                }
+
+                @media all and (max-width: (@device-width-medium + 1)) {
+                    background: url(course/en/images/menu/menu-header.jpg) no-repeat !important;
+                    background-position: center center !important;
+                }
+
+                @media all and (max-width: (768px)) {
+                    background: url(course/en/images/menu/menu-header-m.jpg) no-repeat !important;
+                    background-position: center center !important;
+                    height: 420px;
+                }
+
+                @media all and (max-width: @device-width-small) {
+                    background: url(course/en/images/menu/menu-header-m.jpg) no-repeat !important;
+                    background-position: center center !important;
+                    height: auto;
+                }
+            
+            .menu-header-inner {
+                padding: 35px 0 35px;
+                .h1 {
+                    margin: 0 auto 20px;
+                    color:@white;
+                    margin-left: 25px;
+                    margin-right: 50px;
+                    width: 80%;
+                    font-size: 79px;
+                    line-height: 110%;
+                    .menu-Heading{
+                        
+                    }
+                    @media all and (max-width: @device-width-small) {
+                        font-size: 50px;
+                        margin-left: 25px;
+                        margin-right: 23px;
+                    }
+                }
+            }
+        }
+
+        .menu-body2 {
+            background:#ffffff;
+            padding-top: 30px;
+            margin-bottom: 40px;
+            padding-bottom: 0;
+            height: auto;
+            @media all and (max-width: @device-width-small) {
+                padding: 10px;
+            }
+            .menu-body-inner2 {
+                color: @black;
+                font-size: 30px;
+                line-height: 40px;
+                max-width: 710px;
+                .menuBodyInst{
+                    color: @blue;
+                }
+            }
+        }
+
+        .menu-footer {
+            //background: url(course/en/images/menu/menu-footer.png) no-repeat;
+            background-repeat: no-repeat;
+            background-position: top center;
+            height: 519px;
+            width: 100%;
+            position: relative;
+            margin: -200px 0px;
+            z-index: 0;
+        }
+    }
+}
+// menu header end
+
+
+
+

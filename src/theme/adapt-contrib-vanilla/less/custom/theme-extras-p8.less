@@ -1,0 +1,115 @@
+.page {
+	.article {
+		&.a-0-8-0 {
+			.article-inner {
+				.block {
+					.block-inner {
+						.component-container {
+							.component {
+								@media all and (min-width: (768px)) {
+										width: 50%;
+										float: right;
+										padding-right: 25px;
+								}
+                               
+								@media all and (max-width: 768px) {
+									background: rgba(0,0,0,0.65);
+								}
+								.component-header {
+									.component-header-inner {
+										.component-title {
+											@media all and (min-width: 1900px) {
+													width: 60%;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		&.a-0-8-1 {
+			.article-inner {
+				.block {
+					.block-inner {
+						.component-container {
+							.component {
+								&.c-0-8-1 {
+									.component-inner {
+										.component-widget{
+											.hotgrid-grid {
+												@media all and (min-width: (@device-width-medium + 1)) {
+													border: 0
+													px solid black;
+													width: 50%;
+													float: left;
+													padding-right: 20px;
+												}
+												@media all and (max-width: (@device-width-medium )) {
+													border: 0px solid black;
+													width: 100%;
+													float: none;
+												}
+											}
+											.hotgrid-popup-inner-new {
+												@media all and (min-width: (@device-width-medium + 1)) {
+													border: 0px solid red;
+													width: 46%;
+													float: left;
+													height: auto;
+												}
+												@media all and (max-width: (@device-width-medium )) {
+													border: 0px solid black;
+													width: 0;
+													float: none;
+												}
+												.hotgrid-item-new {
+													position: relative;
+													.hotgrid-item-content-new {
+														.hotgrid-item-content-inner-new {
+															.hotgrid-content-title-new {
+																@media all and (min-width: (@device-width-medium + 1)) {
+																	color: #0F0943;
+																	font-size: 20px;
+																	font-weight: 700; 
+																	text-align: left;
+																	margin-bottom: 20px;
+																}
+															}
+															.hotgrid-content-body-new {
+																@media all and (min-width: (@device-width-medium + 1)) {
+																	font-weight: 500;
+																	font-size: 1em;
+																	font-size: 16px;
+																	line-height: 1.2;
+																	text-align: left;
+																}
+															}
+															.hotgrid-content-instruction {
+																@media all and (min-width: (@device-width-medium + 1)) {
+																	color: #0091DF;
+																	font-weight: 500;
+																	font-size: 1em;
+																	font-size: 16px;
+																	line-height: 1.2;
+																	text-align: left;
+																	margin-bottom: 20px;
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

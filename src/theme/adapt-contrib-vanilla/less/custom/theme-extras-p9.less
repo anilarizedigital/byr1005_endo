@@ -1,0 +1,224 @@
+.page {
+	.article {
+		&.a-0-9-0 {
+			.article-inner {
+				.block {
+					.block-inner {
+						.component-container {
+							.component {
+								@media all and (max-width: 768px) {
+									background: rgba(0,0,0,0.65);
+								}
+								.component-inner {
+									.component-header {
+										.component-header-inner {
+											.component-title {
+												color: @white;
+											}
+											.component-body {
+												color: @white;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		&.a-0-9-1 {
+			.article-inner {		
+				.block {
+					.block-inner {
+						.component {
+							.flippablecard-inner .flippablecard-widget .card-container .holder .spacer .card .card-content .back .back-inner {
+									margin: 20px 10px 20px 15px;
+									text-align: left; 
+							}
+						}
+					}
+				}
+			}
+		}
+		&.a-0-9-1a {
+			margin-top: 10px;
+
+			@media all and (min-width: (1024px)) {
+				margin-top: 20px;
+			}
+		}
+		&.a-0-9-2 {
+			.article-inner {		
+				.block {
+					.block-inner {
+						max-width: 550px;
+						padding-bottom: 0;
+						.component {
+							.component-inner{
+								padding-bottom: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		&.a-0-9-3 {
+			.article-inner {
+				padding-top: 0;;
+				@media all and (min-width: (769px)) {
+					//padding: 50px 0px 70px 0px;
+				}
+
+				.block {
+					&.b-0-9-3 {
+						.block-inner {
+							padding-top: 0;
+							.component {
+								.component-inner{
+									.component-body-inner{
+										display: block;
+									}
+								}
+							}
+						}
+					}
+					&.b-0-9-4 {
+						.block-inner {
+							padding-top: 0;
+							max-width: 480px;
+							.component {
+								.component-inner{
+									.component-body-inner{
+										display: block;
+									}
+								}
+							}
+						}
+					}
+					.block-inner {
+						padding-top: 0px;
+						padding-bottom:20px;
+						max-width: 660px;
+						.component {
+							.component-inner{
+								padding:0px 20px;
+								.component-body-inner{
+									padding:0px;
+
+									@media all and (min-width: (639px)) {
+										display:inline-flex;
+									}
+
+									.btn-blue{
+										//background-color: #0F0943;
+										//float: inherit;
+										//height: 50px;
+										//margin: 0px 0.75em;
+										//min-width: 160px;
+										padding: 12px 78px 13px 20px;
+										//position: relative;
+										overflow: hidden;
+										width: auto;
+										font-size: 1.125em;
+										font-weight: 300;
+										line-height: 133%;
+										color: #fff;
+										text-decoration: none;
+										
+										span {
+											background-color: #0090c5;
+											height: 100%;
+											margin-left: 20px;
+											margin-right: -15px;
+											position: absolute;
+											right: 0;
+											top: 0;
+											transform: skew(-20deg, 0);
+											transition: width 0.3s ease-out;
+											width: 70px;
+    										height: 47px;
+											i {
+												background: url("course/en/images/common/arrow-right.png") no-repeat 20px center;
+												display: block;
+												height: 100%;
+												transform: skew(20deg, 0);
+												transition: margin 0.3s ease-out;
+											}
+										}
+										&:hover{
+											background-color: #0F0943;
+											span {
+													width: 0;
+													border-bottom:0;
+												i {
+												 	 margin-left: -65px;
+												}
+											}
+										}
+									}
+									.leftText{
+										display: inline-block;
+										padding: 0px 20px 0px 0px;
+										margin: 10px 0px;
+										color: #02698F;
+										
+
+										@media all and (min-width: (639px)) {
+											max-width: 630px;
+										}
+									}
+									.leftTextButton{
+										background-color: #0F0943;
+										color: #fff;
+										//float: left;
+										display: table;
+										height: auto;
+										margin: 0 auto;
+										min-width: 160px;
+										padding: 13px 0 10px 0;
+										position: relative;
+										overflow: hidden;
+										width: auto;
+
+										span {
+											background-color: #0090c5;
+											height: 100%;
+											margin-left: 20px;
+											margin-right: -15px;
+											position: absolute;
+											right: 0;
+											top: 0;
+											transform: skew(-20deg, 0);
+											transition: width 0.3s ease-out;
+											width: 70px;
+    										height: 47px;
+											i {
+												background: url("course/en/images/common/arrow-right.png") no-repeat 20px center;
+												display: block;
+												height: 100%;
+												transform: skew(20deg, 0);
+												transition: margin 0.3s ease-out;
+											}
+										}
+										&:hover{
+											background-color: #0F0943;
+											span {
+													width: 0;
+													border-bottom:0;
+												i {
+												 	 margin-left: -65px;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
